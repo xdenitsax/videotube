@@ -23,15 +23,26 @@ body {
   height: 80px;
   margin: 10px;
 }
+@media only screen and (max-width: 440px) {
+  .label-css {
+    height: 60px;
+  }
+}
 .text-label {
   font-family: 'Lobster', cursive;
   font-size: 60px;
   color: #ffc000;
 }
+@media only screen and (max-width: 440px) {
+  .text-label {
+    font-size: 40px;
+  }
+}
 .search-bar {
   height: 60px;
   box-shadow: 10px 5px 10px #42330433;
 }
+
 .form-search-bar {
   display: flex;
   flex-direction: row;
@@ -43,6 +54,11 @@ body {
   font-size: 20px;
   margin-top: 2px;
 }
+@media only screen and (max-width: 440px) {
+  .label-search-bar {
+    font-size: 12px;
+  }
+}
 .input-search-bar {
   margin-left: 20px;
   width: 400px;
@@ -53,6 +69,12 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   font-size: 16px;
+}
+@media only screen and (max-width: 650px) {
+  .input-search-bar {
+    width: 200px;
+    margin-left: 5px;
+  }
 }
 .input-search-bar:focus {
   outline: none !important;
@@ -67,6 +89,12 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
 }
+@media only screen and (max-width: 440px) {
+  .button-search-bar {
+    font-size: 10px;
+    margin-right: 3px;
+  }
+}
 .div-video-item {
   width: 300px;
   height: 300px;
@@ -74,9 +102,57 @@ body {
   border-radius: 10px;
   background-color: #2b230d1e;
 }
+@media only screen and (max-width: 1038px) {
+  .div-video-item {
+    width: 200px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 710px) {
+  .div-video-item {
+    width: 150px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .div-video-item {
+    width: 120px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .div-video-item {
+    width: 100px;
+    height: 150px;
+  }
+}
 .img-video-item {
   width: 300px;
   height: 200px;
+}
+@media only screen and (max-width: 1038px) {
+  .img-video-item {
+    width: 200px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 710px) {
+  .img-video-item {
+    width: 150px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .img-video-item {
+    width: 120px;
+    height: 70px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .img-video-item {
+    width: 100px;
+    height: 60px;
+  }
 }
 .div-video-snippet {
   height: 150px;
@@ -84,4 +160,14 @@ body {
 .div-video-snippet-text {
   margin: 5px 10px;
   font-size: 12px;
+}
+@media only screen and (max-width: 580px) {
+  .div-video-snippet-text {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .div-video-snippet-text {
+    font-size: 8px;
+  }
 }
