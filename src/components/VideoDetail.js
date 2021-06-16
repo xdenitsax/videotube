@@ -15,7 +15,9 @@ const VideoDetail = ({ video }) => {
       <div
         className='ui segment'
         style={{
-          backgroundColor: '#686d76',
+          backgroundColor: 'rgba(255, 255, 249, 0.678)',
+          borderRadius: '15px',
+          border: 'hidden',
         }}
       >
         <h4 className='ui header '>{video.snippet.title}</h4>

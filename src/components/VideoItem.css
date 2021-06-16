@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.2);
+  background-color: rgba(104, 109, 118, 0.007);
   box-shadow: 10px 5px 20px #42330469;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
